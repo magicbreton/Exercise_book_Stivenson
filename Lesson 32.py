@@ -1,0 +1,5 @@
+number=int(input("Введите целое четырехзначное число: "))
+number1=str(number)
+new_number=list(number1)
+sum=(int(new_number[0])+int(new_number[1])+int(new_number[2])+int(new_number[3]))
+print(new_number[0],"+",new_number[1],"+",new_number[2],"+",new_number[3],"=",sum)
